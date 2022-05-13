@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card border-0 shadow my-5">
     <br />
     <br />
     <br />

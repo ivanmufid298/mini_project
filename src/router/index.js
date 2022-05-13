@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Carts from "../views/Carts.vue";
 import Shops from "../views/Shops.vue";
+import Profiles from "../views/Profiles.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/cart",
     name: "Cart",
     component: Carts,
+  },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: Profiles,
   },
   {
     path: "/about",

@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div
-      class="card"
+      class="card border-0 shadow my-5"
       style="width: 15rem"
       v-for="item in products"
       :key="item.id"
@@ -16,6 +16,9 @@
       </div>
     </div>
   </div>
+  <!-- <div class="card border-0 shadow my-5" style="height: auto; width: auto">
+
+  </div> -->
 </template>
 
 <script>
@@ -36,6 +39,7 @@ export default {
 
 <style scoped>
 .card {
+  height: auto;
   padding: 10px;
   border: none;
   margin-bottom: 50px;

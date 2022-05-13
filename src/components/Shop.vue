@@ -36,7 +36,9 @@ export default {
 
 <style scoped>
 .card {
-  padding: 20px;
+  padding: 10px;
   border: none;
+  margin-bottom: 50px;
+  margin-right: 100px;
 }
 </style>

@@ -2,7 +2,7 @@
   <div>
     <Header />
 
-    <div class="container">
+    <div class="container mt-5">
       <Cart /> <br />
 
       <button class="btn btn-info">
@@ -11,17 +11,20 @@
         >
       </button>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
 import Cart from "@/components/Cart";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Carts",
   components: {
     Header,
     Cart,
+    Footer,
   },
 };
 </script>

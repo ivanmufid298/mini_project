@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-header {
-  margin-bottom: 10vh;
-}
+/* header {
+  margin-bottom: 10px;
+} */
 </style>

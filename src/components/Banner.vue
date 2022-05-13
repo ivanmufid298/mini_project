@@ -12,6 +12,13 @@
           <button class="btn btn-outline-primary">
             <router-link style="text-decoration: none; color: black" to="/shop"
               >Shop Now</router-link
+            ></button
+          ><br /><br />
+          <button class="btn btn-outline-primary">
+            <router-link
+              style="text-decoration: none; color: black"
+              to="/profile"
+              >About Us</router-link
             >
           </button>
         </div>

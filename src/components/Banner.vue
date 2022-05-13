@@ -1,5 +1,5 @@
 <template>
-  <div class="card border-0 shadow my-5">
+  <div class="card border-0 shadow my-5" style="height: 500px">
     <br />
     <br />
     <br />
@@ -34,8 +34,4 @@
   </div>
 </template>
 
-<style>
-.card {
-  height: 500px;
-}
-</style>
+<style></style>

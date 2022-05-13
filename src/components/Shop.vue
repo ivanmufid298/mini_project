@@ -13,6 +13,8 @@
         <button class="btn btn-primary" @click="addItemToCart(item)">
           Add to cart
         </button>
+        <br />
+        <br /><button class="btn btn-secondary">Detail</button>
       </div>
     </div>
   </div>

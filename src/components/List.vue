@@ -10,7 +10,7 @@
             <p style="font-size: 1.25em">
               This pre-owned product has been professionally inspected, tested
               and cleaned by Amazon-qualified suppliers. There will be no
-              visible cosmetic imperfections when held at an arm’s length.
+              visible cosmetic imperfections when held at an arm,s length.
               Products with batteries will exceed 80% capacity relative to new.
               - Accessories may not be original, but will be compatible and
               fully functional. Product may come in generic box. This product is

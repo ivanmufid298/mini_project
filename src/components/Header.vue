@@ -4,9 +4,9 @@
       <span class="navbar-brand mb-0 h1"
         ><router-link to="/">Home</router-link></span
       >
-      <!-- <span class="navbar-brand mb-0 h1"
-        ><router-link to="/shop">Shop</router-link></span
-      > -->
+      <span class="navbar-brand mb-0 h1"
+        ><router-link to="/list">List Product</router-link></span
+      >
       <!-- <span class="navbar-brand mb-0 h1">
         Cart <span class="badge badge-primary">{{ totalQty }}</span>
       </span> -->

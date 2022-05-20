@@ -1,11 +1,13 @@
 <template>
   <div class="row">
+    <!-- Looping item in product.json with id as unique key -->
     <div
       class="card border-0 shadow my-5"
       style="width: 15rem"
       v-for="item in products"
       :key="item.id"
     >
+      <!-- Binding variable -->
       <img :src="item.imgUrl" class="card-img-top" :alt="item.title" />
       <div class="card-body">
         <p class="card-title">{{ item.title }}</p>

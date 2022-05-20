@@ -1,8 +1,11 @@
 <template>
   <div class="cart">
+    <!-- alert visible: true, if there's no product exist in cart (!cart.length) -->
     <div v-if="!cart.length" class="alert alert-secondary" role="alert">
       No Product in cart!
     </div>
+
+    <!-- alert visible: true, if orderPlaced: true -->
     <div
       v-if="orderPlaced"
       @click="() => (this.orderPlaced = false)"
@@ -19,6 +22,8 @@
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
+
+    <!-- Looping cart item using v-for -->
     <ul class="list-group">
       <li class="list-group-item" v-for="item in cart" :key="item.id">
         <button
@@ -30,7 +35,10 @@
         >
           <span aria-hidden="true">&times;</span>
         </button>
+
+        <!-- Cart Media -->
         <div class="media">
+          <!-- Binding varible not string -->
           <img width="80px" :src="item.imgUrl" class="mr-3" alt="item.title" />
           <div class="media-body">
             <p class="mt-0">{{ item.title }}</p>
@@ -51,12 +59,14 @@
         </div>
       </li>
     </ul>
+    <!-- use cart.length -> item exist = checkout visible: true -->
     <button
       v-if="cart.length"
       @click="placeOrder"
       class="checkout-button btn btn-lg btn-block btn-success"
       :disabled="isProcessing"
     >
+      <!-- spinner if data checking out -->
       <div v-if="isProcessing" class="spinner-border" role="status">
         <span class="sr-only">Loading...</span>
       </div>
@@ -66,7 +76,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from "vuex";
+import { mapGetters, mapActions } from "vuex"; //get products from vuex in cart
 export default {
   name: "Cart",
   data() {
@@ -76,15 +86,17 @@ export default {
     };
   },
   computed: {
-    ...mapGetters(["cart"]),
+    ...mapGetters(["cart"]), //get data cart
     totalPrice() {
-      return this.cart.reduce((a, b) => a + b.qty * b.price, 0);
+      return this.cart.reduce((a, b) => a + b.qty * b.price, 0); //sums data with qty * price, default 0 if data doesnt exist
     },
   },
   methods: {
-    ...mapActions(["removeItemFromCart", "addQty", "reduceQty", "emptyCart"]),
+    ...mapActions(["removeItemFromCart", "addQty", "reduceQty", "emptyCart"]), //registration
     placeOrder() {
       this.isProcessing = true;
+
+      //for making looks like fetching data
       setTimeout(() => {
         this.isProcessing = false;
         this.orderPlaced = true;

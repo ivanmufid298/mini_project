@@ -5,6 +5,7 @@ import products from "../mock/products.json";
 Vue.use(Vuex);
 
 const state = {
+  //array
   products: [],
   cart: [],
 };
@@ -16,11 +17,13 @@ const getters = {
 
 const actions = {
   getProducts({ commit }) {
-    commit("getProductData");
+    commit("getProductData"); //getProductData is an actions
   },
   addItemToCart({ commit }, item) {
+    //commit item
     commit("addToCart", item);
   },
+  //finding item by id
   removeItemFromCart({ commit }, id) {
     commit("removeFromCart", id);
   },
@@ -35,30 +38,35 @@ const actions = {
   },
 };
 const mutations = {
+  // Passing param state
   getProductData(state) {
-    state.products = products;
+    state.products = products; //import products
   },
   addToCart(state, item) {
-    const productInCart = state.cart.find((product) => product.id === item.id);
+    const productInCart = state.cart.find((product) => product.id === item.id); //same items not stacking
     if (!productInCart) {
-      state.cart.push({ ...item, qty: 1 });
+      state.cart.push({ ...item, qty: 1 }); //add quantity = add spread
     } else {
-      productInCart.qty++;
+      productInCart.qty++; //add quantity if product exist
     }
   },
+  //getting item by id
   removeFromCart(state, id) {
-    state.cart = state.cart.filter((item) => item.id !== id);
+    state.cart = state.cart.filter((item) => item.id !== id); //what is left is the id that is not deleted
   },
+  //make functionality of "+"
   addQty(state, id) {
-    const productInCart = state.cart.find((product) => product.id === id);
+    const productInCart = state.cart.find((product) => product.id === id); //id have been parsing -> use only id
     productInCart.qty++;
   },
+  //make functionality of "-"
   reduceQty(state, id) {
-    const productInCart = state.cart.find((product) => product.id === id);
+    const productInCart = state.cart.find((product) => product.id === id); //id have been parsing -> use only id
+    // if data = 0 then reduce does not become -1,..
     if (productInCart.qty > 1) {
       productInCart.qty--;
     } else {
-      state.cart.splice(state.cart.indexOf(productInCart, 1));
+      state.cart.splice(state.cart.indexOf(productInCart, 1)); //if data <= 1 then delete
     }
   },
   emptyCart(state) {

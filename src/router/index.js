@@ -5,6 +5,7 @@ import Carts from "../views/Carts.vue";
 import Shops from "../views/Shops.vue";
 import Profiles from "../views/Profiles.vue";
 import Lists from "../views/Lists.vue";
+import Testimonials from "../views/Testimonials.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/profile",
     name: "Profile",
     component: Profiles,
+  },
+  {
+    path: "/testimonial",
+    name: "Testimonial",
+    component: Testimonials,
   },
   {
     path: "/about",

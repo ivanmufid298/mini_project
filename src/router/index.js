@@ -6,6 +6,7 @@ import Shops from "../views/Shops.vue";
 import Profiles from "../views/Profiles.vue";
 import Lists from "../views/Lists.vue";
 import Testimonials from "../views/Testimonials.vue";
+import Invoices from "../views/Invoices.vue";
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,11 @@ const routes = [
     path: "/cart",
     name: "Cart",
     component: Carts,
+  },
+  {
+    path: "/invoice",
+    name: "Invoice",
+    component: Invoices,
   },
   {
     path: "/profile",

@@ -1,11 +1,16 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import products from "../mock/products.json";
+import createPersistedState from "vuex-persistedstate";
 
 Vue.use(Vuex);
+const persistedstate = createPersistedState({
+  paths: ["Cart"],
+});
 
 const state = {
   //array
+  plugins: [persistedstate],
   products: [],
   cart: [],
 };

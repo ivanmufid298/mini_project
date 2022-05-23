@@ -1,7 +1,24 @@
 <template>
   <div>
     <Header /> <br />
-    <div class="card border-0 shadow my-5">
+    <div class="container text-center">
+      <h1
+        style="
+          background-color: rgb(0, 110, 255);
+          padding: 15px;
+          color: white;
+          border-radius: 15px;
+        "
+      >
+        What People say
+      </h1>
+    </div>
+    <div class="card border-0 shadow my-5" style="height: auto">
+      <img
+        src="https://ichef.bbci.co.uk/news/976/cpsprodpb/698D/production/_112412072_gettyimages-1158282318.jpg"
+        alt=""
+        style="height: 500px"
+      />
       <div id="todo">
         <div class="todo-list mt-5">
           <template>
@@ -18,7 +35,7 @@
               </ul>
             </div>
             <div v-else class="loading" />
-            <div class="todo-form">
+            <div class="todo-form mb-5">
               <input
                 v-model="todoBaru"
                 name="todo"

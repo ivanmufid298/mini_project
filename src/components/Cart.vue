@@ -60,17 +60,10 @@
       </li>
     </ul>
     <!-- use cart.length -> item exist = checkout visible: true -->
-    <button
-      v-if="cart.length"
-      @click="placeOrder"
-      class="checkout-button btn btn-lg btn-block btn-success"
-      :disabled="isProcessing"
-    >
-      <!-- spinner if data checking out -->
-      <div v-if="isProcessing" class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-      <span v-else>Checkout ($ {{ totalPrice.toLocaleString() }})</span>
+    <button class="btn btn-lg btn-block btn-success mt-5">
+      <router-link to="/invoice" style="color: white; text-decoration: none"
+        >Pay</router-link
+      >
     </button>
   </div>
 </template>

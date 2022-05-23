@@ -23,5 +23,6 @@ export default {
   line-height: 60px;
   background-color: black;
   color: white;
+  margin-top: 50px;
 }
 </style>

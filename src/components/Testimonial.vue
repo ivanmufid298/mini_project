@@ -128,7 +128,7 @@ h5 {
 }
 li {
   list-style-type: none;
-  width: 70%;
+  width: 90%;
   margin: auto;
   padding: 15px 0;
   background-color: rgb(250, 250, 250);

@@ -1,13 +1,16 @@
 <template>
   <div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Dell XPS 13 9380</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               This pre-owned product has been professionally inspected, tested
               and cleaned by Amazon-qualified suppliers. There will be no
               visible cosmetic imperfections when held at an arm,s length.
@@ -45,8 +48,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/CcvCOsyrgQs"
                 title="YouTube video player"
                 frameborder="0"
@@ -58,14 +61,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Apple 13 inch MacBook Air</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               This pre-owned product is not Apple certified, but has been
               professionally inspected, tested and cleaned by Amazon-qualified
               suppliers. There will be no visible cosmetic imperfections when
@@ -105,8 +111,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/hs1HoLs4SD0"
                 title="YouTube video player"
                 frameborder="0"
@@ -118,14 +124,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Lenovo IdeaPad 3</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               The IdeaPad 3 17-inch laptop is the ultimate notebook for
               performance at home and beyond, built with an AMD Ryzen 5 5500U
               Processor, 8GB DDR4 RAM, and 512GB SSD storage Expect more from
@@ -139,8 +148,8 @@
             <h5><strong>About This Item</strong></h5>
             <ul>
               <li>
-                15.6" Full HD Anti-glare Display (1920 x 1080), Intel 10th Gen
-                i3-1005G1 (1.20 GHz - 3.40 GHz)
+                15.6" Full HD Anti-glare Display (1760 x 1080), Intel 10th Gen
+                i3-1005G1 (1.20 GHz - 3.40 GHz570
               </li>
               <li>256GB SSD, 8GB DDR4 SDRAM</li>
               <li>Bluetooth 5.0, WiFi 802.11ac</li>
@@ -171,8 +180,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/3chD3irUuyE"
                 title="YouTube video player"
                 frameborder="0"
@@ -184,14 +193,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Acer Spin 3 Convertible Laptop</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               【Uninterrupted Connectivity】The Spin 3 comes packed with loads
               of connectivity options to ensure you're never unconnected. With
               Dual-band Wi-Fi 6 (802.11ax), multiple fully-functional USB Type-C
@@ -208,8 +220,8 @@
                 3.6GHz) | 8GB LPDDR4 Memory | 256GB NVMe SSD
               </li>
               <li>
-                14" Full HD (1920 x 1080) widescreen LED-backlit IPS Multi-Touch
-                Display | Intel UHD Graphics
+                14" Full HD (1760 x 1080) widescreen LED-backlit IPS Multi-Touch
+                Display | Intel570D Graphics
               </li>
               <li>
                 I1 - USB 3.1 Type C port (up to 10 Gbps) DisplayPort over USB-C
@@ -239,8 +251,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/94Qs0osLX9Q"
                 title="YouTube video player"
                 frameborder="0"
@@ -252,14 +264,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>CHUWI HeroBook Pro 14.1 inch</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               CoreBook X i5 slim notebook weighs at only 1.5kg, compactness and
               portable makes it a preferred computer laptop for business office.
               The thin laptop equipped with a full size backlit keyboard ,
@@ -301,8 +316,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/ORSopNwmVSE"
                 title="YouTube video player"
                 frameborder="0"
@@ -314,14 +329,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Lenovo Ideapad L340</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               Windows 11 Home-Beautiful, more consistent new design, Great
               window layout options, Better multi-monitor functionality,
               Improved performance features, New videogame selection and
@@ -332,8 +350,8 @@
             <h5><strong>About This Item</strong></h5>
             <ul>
               <li>9th Gen Intel Core i5-9300HF mobile processor</li>
-              <li>15.6" Full HD display , 1920 x 1080 resolution</li>
-              <li>256 GB Solid State Drive (PCI-e)</li>
+              <li>15.6" Full HD display , 1760 x 1080 resolution</li>
+              <li>256 GB Solid State Drive (570-e)</li>
               <li>NVIDIA GeForce GTX 1650 graphics</li>
               <li>8GB system memory for advanced multitasking</li>
             </ul>
@@ -355,8 +373,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/rkIcHMAtiKk"
                 title="YouTube video player"
                 frameborder="0"
@@ -368,14 +386,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>HP 2020 Newest 17.3 Inch</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               Powered by latest AMD Ryzen 5 3500U Quad-Core Processor @ 2.1GHz
               (4 Cores, up to 3.7GHz, 4MB Cache). Give you the power to surf,
               stream, and do so much more. Edit photos and videos faster than
@@ -423,8 +444,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/hhEUvIt-M_E"
                 title="YouTube video player"
                 frameborder="0"
@@ -436,14 +457,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Dell XPS 13 9380</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               Great for gaming, intensive image and video editing, and streaming
               and recording at the same time. NVIDIA GeForce RTX 3070 Max-Q
               (8GB) GDDR6 Graphics Card, an ultrafast, advanced GPU to fuel your
@@ -487,8 +511,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/hNqv5LgODvI"
                 title="YouTube video player"
                 frameborder="0"
@@ -500,14 +524,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Acer Aspire 5 Slim Laptop</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               Acer Aspire 5 Slim Laptop, 15.6 Inches FHD IPS Display, 8th Gen
               Intel Core i5-8265U, 8GB DDR4, 256GB SSD, Fingerprint Reader,
               Windows 10 Home, A515-54-51DJ
@@ -521,8 +548,8 @@
                 Memory; 128GB PCIe NVMe SSD
               </li>
               <li>
-                15.6 inches full HD (1920 x 1080) widescreen LED backlit IPS
-                display; AMD Radeon Vega 3 Mobile Graphics
+                15.6 inches full HD (1760 x 1080) widescreen LED backlit IPS
+                display; AMD Radeon Veg570 Mobile Graphics
               </li>
               <li>
                 802.11ac Wi-Fi; Backlit Keyboard; Up to 7.5 hours battery life
@@ -550,8 +577,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/7QHef7khMDY"
                 title="YouTube video player"
                 frameborder="0"
@@ -563,14 +590,17 @@
         </div>
       </div>
     </div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-6">
             <h1><strong>Alienware New M15</strong></h1>
             <br />
-            <p style="font-size: 1.25em">
+            <p style="font-size: 1.1em">
               Hardwired for higher performance: Experience unprecedented
               performance thanks to hyper-efficient voltage regulation
               engineered to exceed Intel and NVIDIA's reference design
@@ -591,8 +621,8 @@
                 5GHz w/ Turbo Boost)
               </li>
               <li>
-                15.6 inch Fhd (1920 x 1080) 144Hertz 9ms 300 nits 72 percent
-                Color gamut + Tobii tracking technology
+                15.6 inch Fhd (1760 x 1080) 144Hertz 9ms 300 nits 72 percent
+                Color gamut + Tob570tracking technology
               </li>
               <li>16GB, 2x8GB, DDR4 2666MHz</li>
               <li>512GB PCIe M. 2 SSD</li>
@@ -621,8 +651,8 @@
           <div class="col-6">
             <section>
               <iframe
-                width="920"
-                height="615"
+                width="760"
+                height="570"
                 src="https://www.youtube.com/embed/CAo8s4tiCEw"
                 title="YouTube video player"
                 frameborder="0"
@@ -637,17 +667,4 @@
   </div>
 </template>
 
-<style>
-.card {
-  max-width: 1900px;
-  margin: auto;
-  width: 1900px;
-  height: 800px;
-}
-.card1 {
-  max-width: 1900px;
-  margin: auto;
-  width: auto;
-  height: 700px;
-}
-</style>
+<style></style>

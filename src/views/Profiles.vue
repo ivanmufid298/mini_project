@@ -5,6 +5,7 @@
       <div class="row"></div>
     </div>
     <Profile />
+    <br />
     <Footer />
   </div>
 </template>

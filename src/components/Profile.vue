@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="card bg border-0 shadow my-5">
+    <div
+      class="card bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 700px"
+    >
       <br />
       <br />
       <br />
@@ -10,7 +13,7 @@
             <h1><strong>Electric City Profile</strong></h1>
             <h3>In your Age</h3>
             <br />
-            <p style="font-size: 1.45em">
+            <p style="font-size: 1.2em">
               We started from humble beginnings back in 1999 with a small shop
               in Huddersfield and we’ve quickly grown to become the UKs largest
               online laptop specialist. We’re still based in Huddersfield but we
@@ -39,7 +42,7 @@
           <div class="col-6">
             <img
               class="img-fluid"
-              style="width: 80%"
+              style="width: 70%"
               src="../assets/profile1.jpg"
             />
           </div>
@@ -47,7 +50,10 @@
       </div>
     </div>
 
-    <div class="card card1 bg border-0 shadow my-5">
+    <div
+      class="card card1 bg border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: 600px"
+    >
       <br />
       <br />
       <br />
@@ -109,18 +115,3 @@
     </div>
   </div>
 </template>
-
-<style>
-.card {
-  max-width: 1900px;
-  margin: auto;
-  width: 1900px;
-  height: 800px;
-}
-.card1 {
-  max-width: 1900px;
-  margin: auto;
-  width: auto;
-  height: 700px;
-}
-</style>

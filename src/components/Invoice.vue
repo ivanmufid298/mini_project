@@ -149,23 +149,25 @@
               <div class="invoice-footer mb-5">
                 Thank you for your Business.
               </div>
+              <div class="container mb-5">
+                <button
+                  v-if="cart.length"
+                  @click="placeOrder"
+                  class="checkout-button btn btn-lg btn-block btn-success"
+                  :disabled="isProcessing"
+                >
+                  <!-- spinner if data checking out -->
+                  <div v-if="isProcessing" class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                  <span v-else
+                    >Checkout ($ {{ totalAll.toLocaleString() }})</span
+                  >
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container mb-5">
-        <button
-          v-if="cart.length"
-          @click="placeOrder"
-          class="checkout-button btn btn-lg btn-block btn-success"
-          :disabled="isProcessing"
-        >
-          <!-- spinner if data checking out -->
-          <div v-if="isProcessing" class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
-          </div>
-          <span v-else>Checkout ($ {{ totalAll.toLocaleString() }})</span>
-        </button>
       </div>
     </div>
   </div>

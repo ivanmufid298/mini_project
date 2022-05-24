@@ -47,9 +47,9 @@
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6">
                     <address class="text-right">
-                      Electric City Inc, 45 NorthWest Street.<br />
-                      Sunrise Blvd, San Francisco.<br />
-                      00000 00000
+                      Electric City Inc, 45 Belimbing Street.<br />
+                      Pancoran, Depok.<br />
+                      12345 67890
                     </address>
                   </div>
                 </div>
@@ -68,7 +68,7 @@
                     <div class="invoice-details">
                       <div class="invoice-num">
                         <div>Invoice - #001</div>
-                        <div>May 23th 2020</div>
+                        <div>May 24th 2022</div>
                       </div>
                     </div>
                   </div>
@@ -128,7 +128,27 @@
                 </div>
                 <!-- Row end -->
               </div>
-              <div class="invoice-footer">Thank you for your Business.</div>
+              <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="invoice-details">
+                    <address>
+                      Bank BII: 18790367490<br />
+                      On Behalf of: Ivan
+                    </address>
+                    <div class="text-center">
+                      <h5>Scan This on Paypal</h5>
+                      <img
+                        style="width: 10%"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/296px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-footer mb-5">
+                Thank you for your Business.
+              </div>
             </div>
           </div>
         </div>

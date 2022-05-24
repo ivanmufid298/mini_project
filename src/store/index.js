@@ -5,7 +5,8 @@ import createPersistedState from "vuex-persistedstate";
 
 Vue.use(Vuex);
 const persistedstate = createPersistedState({
-  paths: ["Cart"],
+  key: ["cart"],
+  paths: ["products", "cart"],
 });
 
 const state = {

@@ -13,7 +13,10 @@
         What People say
       </h1>
     </div>
-    <div class="card border-0 shadow my-5" style="height: auto">
+    <div
+      class="card border-0 shadow my-5"
+      style="max-width: 1600px; margin: auto; width: 1600px; height: auto"
+    >
       <img
         src="https://ichef.bbci.co.uk/news/976/cpsprodpb/698D/production/_112412072_gettyimages-1158282318.jpg"
         alt=""

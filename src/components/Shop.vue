@@ -7,7 +7,7 @@
       v-for="item in products"
       :key="item.id"
     >
-      <!-- Binding variable -->
+      <!-- Binding variable not string ":"-->
       <img :src="item.imgUrl" class="card-img-top" :alt="item.title" />
       <div class="card-body">
         <p class="card-title">{{ item.title }}</p>
@@ -18,23 +18,23 @@
       </div>
     </div>
   </div>
-  <!-- <div class="card border-0 shadow my-5" style="height: auto; width: auto">
-
-  </div> -->
 </template>
 
 <script>
+//get product data from vuex
+//mapActions "use actions not mutation"
+//mapGetters for getting the products
 import { mapActions, mapGetters } from "vuex";
 export default {
   name: "Shop",
   mounted() {
-    this.getProducts();
+    this.getProducts(); //#1 first mounting actions
   },
   computed: {
-    ...mapGetters(["products"]),
+    ...mapGetters(["products"]), //#3 spread mapGetters "getting products"
   },
   methods: {
-    ...mapActions(["addItemToCart", "getProducts"]),
+    ...mapActions(["addItemToCart", "getProducts"]), //#2 register "addItemToCart & getProducts"
   },
 };
 </script>

@@ -10,9 +10,6 @@
       <span class="navbar-brand mb-0 h1"
         ><router-link to="/testimonial">Review</router-link></span
       >
-      <!-- <span class="navbar-brand mb-0 h1"
-        ><router-link to="/invoice">inv</router-link></span
-      > -->
       <span class="navbar-brand mb-0 h1"
         ><router-link to="/cart"
           >Cart<span style="margin-left: 5px" class="badge badge-primary">{{
@@ -37,8 +34,4 @@ export default {
 };
 </script>
 
-<style scoped>
-/* header {
-  margin-bottom: 10px;
-} */
-</style>
+<style scoped></style>

@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
-    <Invoice />
+    <div class="container" style="max-width: 1200px">
+      <Invoice />
+    </div>
     <Footer />
   </div>
 </template>
@@ -19,5 +21,3 @@ export default {
   },
 };
 </script>
-
-<style></style>
